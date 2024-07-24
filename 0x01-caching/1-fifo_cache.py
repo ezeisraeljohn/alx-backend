@@ -9,6 +9,12 @@ class FIFOCache(BaseCaching):
     """The FIFO class"""
 
     def put(self, key, item):
+        """_summary_
+
+        Args:
+            key (Any): The key of the item
+            item (Any): The value
+        """
         if not key and not item:
             pass
 
