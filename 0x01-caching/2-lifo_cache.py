@@ -28,7 +28,6 @@ class LIFOCache(BaseCaching):
                 del self.cache_data[discard_key]
                 self.cache_data[key] = item
                 print(f"DISCARD: {discard_key}")
-                print()
         else:
             self.cache_data[key] = item
 
